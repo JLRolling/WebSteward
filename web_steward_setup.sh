@@ -748,8 +748,8 @@ restore_configuration() {
 print_banner() {
     clear
     echo -e "${MAGENTA}┌────────────────────────────────────────────────────────────────────┐${NC}"
-    echo -e "${MAGENTA}│${NC}                     ${BOLD}🌀 WEB STEWARD${NC}                         ${MAGENTA}│${NC}"
-    echo -e "${MAGENTA}│${NC}           Multi-App NGINX Deployment & Management Tool           ${MAGENTA}│${NC}"
+    echo -e "${MAGENTA}│${NC}                     ${BOLD}🌀 WEB STEWARD${NC}                                         ${MAGENTA}│${NC}"
+    echo -e "${MAGENTA}│${NC}           Multi-App NGINX Deployment & Management Tool               ${MAGENTA}│${NC}"
     echo -e "${MAGENTA}└────────────────────────────────────────────────────────────────────┘${NC}"
     echo ""
     show_app_info
