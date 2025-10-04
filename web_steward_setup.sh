@@ -1,10 +1,4 @@
 #!/bin/bash
-# nginx_setup.sh - NGINX Application Manager 2.0
-# Full-featured interactive script (pure Bash) with modern terminal UI
-# - App creation, import, systemd, nginx, firewall (ufw), backup, restore
-# - Modern UI: banner, dashboard, colored logs, loading animation
-# Usage: ./nginx_setup.sh
-
 set -euo pipefail
 
 # Fix for Windows line endings if needed
