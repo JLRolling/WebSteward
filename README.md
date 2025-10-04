@@ -34,7 +34,7 @@ Or Download and Run Manually
 wget https://raw.githubusercontent.com/JLRolling/WebSteward/main/web_steward_setup.sh
 
 # Make executable
-chmod +x nginx_setup.sh
+chmod +x web_steward_setup.sh
 
 # Run
 ./web_steward_setup.sh
