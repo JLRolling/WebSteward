@@ -748,11 +748,10 @@ restore_configuration() {
 print_banner() {
     clear
     echo -e "${MAGENTA}┌────────────────────────────────────────────────────────────────────┐${NC}"
-    echo -e "${MAGENTA}│${NC}  ${BOLD}          🌀 WEB STEWARD${NC}               ${MAGENTA}│${NC}"
-    echo -e "${MAGENTA}│${NC}        Multi-App NGINX Deployment & Management Tool ${MAGENTA}│${NC}"
+    echo -e "${MAGENTA}│${NC}                     ${BOLD}🌀 WEB STEWARD${NC}                         ${MAGENTA}│${NC}"
+    echo -e "${MAGENTA}│${NC}           Multi-App NGINX Deployment & Management Tool           ${MAGENTA}│${NC}"
     echo -e "${MAGENTA}└────────────────────────────────────────────────────────────────────┘${NC}"
     echo ""
-    # show small status
     show_app_info
     echo ""
     echo -e "${CYAN}────────────────────────────────────────────────────────────────────${NC}"
@@ -762,7 +761,7 @@ print_menu() {
     echo ""
     echo -e "${BOLD}Menu:${NC}"
     echo -e "  ${BOLD}[1]${NC}  🔁  Manage Applications"
-    echo -e "  ${BOLD}[2]${NC}  ⚙️  Full Setup (Current App)"
+    echo -e "  ${BOLD}[2]${NC}  ⚙️   Full Setup (Current App)"
     echo -e "  ${BOLD}[3]${NC}  🧩  Update System Packages"
     echo -e "  ${BOLD}[4]${NC}  🐍  Update Python Packages"
     echo -e "  ${BOLD}[5]${NC}  🔄  Switch Server Mode"
@@ -771,7 +770,7 @@ print_menu() {
     echo -e "  ${BOLD}[8]${NC}  🔥  Firewall Management"
     echo -e "  ${BOLD}[9]${NC}  📊  Status Overview"
     echo -e "  ${BOLD}[10]${NC} 💾  Backup Configuration"
-    echo -e "  ${BOLD}[11]${NC} ♻️  Restore Configuration"
+    echo -e "  ${BOLD}[11]${NC} ♻️   Restore Configuration"
     echo -e "  ${BOLD}[12]${NC} 🩺  Fix Permissions"
     echo -e "  ${BOLD}[13]${NC} 🧪  Test Server"
     echo -e "  ${BOLD}[14]${NC} 🌍  Nginx Management"
