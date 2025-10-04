@@ -1,4 +1,10 @@
 #!/bin/bash
+# web_steward_setup.sh -  Multi-App NGINX Deployment & Management Tool
+# Full-featured interactive script (pure Bash) with modern terminal UI
+# - App creation, import, systemd, nginx, firewall (ufw), backup, restore
+# - Modern UI: banner, dashboard, colored logs, loading animation
+# Usage: ./web_steward_setup.sh
+
 set -euo pipefail
 
 # Fix for Windows line endings if needed
